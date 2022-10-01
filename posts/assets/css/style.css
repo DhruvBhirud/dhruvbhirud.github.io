@@ -506,7 +506,9 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
-
+.text {
+  color: var(--light-gray);
+}
 
 /**
  * #service 
