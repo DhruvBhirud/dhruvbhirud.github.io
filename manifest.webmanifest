@@ -1,21 +1,15 @@
 {
-    "name": "PWA",
-    "short_name": "GPPWA",
-    "description": "Progressive Web App",
-   
-    "scope": "/dhruvbhirud.github.io/",
-    "start_url": "/dhruvbhirud.github.io/",
-   
-    "background_color": "#ffffff",
-    "theme_color": "#ffffff",
-   
-    "display": "standalone", 
-   
+    "background_color": "white",
+    "description": "DhruvBhirud as standalone app (PWA)",
+    "display": "fullscreen",
+    "name": "DhruvBhirud",
+    "short_name": "DhruvBhirud",
     "icons": [
-        {
-          "src": "dhruvbhirud.github.io/assets/images/logo.svg",
-          "type": "image/svg",
-          "sizes": "700x700"
-        }
-    ]
+      {
+        "src": "https://www.google.com/s2/favicons?sz=16&domain=dhruvbhirud.github.io",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "https://derlin.github.io/pwa-ize/redirect.html?url=https://dhruvbhirud.github.io/"
   }
