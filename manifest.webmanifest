@@ -1,0 +1,21 @@
+{
+    "name": "PWA",
+    "short_name": "GPPWA",
+    "description": "Progressive Web App",
+   
+    "scope": "/dhruvbhirud.github.io/",
+    "start_url": "/dhruvbhirud.github.io/",
+   
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+   
+    "display": "standalone", 
+   
+    "icons": [
+        {
+          "src": "dhruvbhirud.github.io/assets/images/logo.svg",
+          "type": "image/svg",
+          "sizes": "700x700"
+        }
+    ]
+  }
