@@ -7,9 +7,10 @@
     "icons": [
       {
         "src": "./assets/images",
-        "sizes": "16x16",
+        "sizes": "512x512",
         "type": "image/png"
       }
     ],
-    "start_url": "https://dhruvbhirud.github.io/"
+    "start_url": "https://dhruvbhirud.github.io/",
+    "theme_color": "#317EFB"
   }
