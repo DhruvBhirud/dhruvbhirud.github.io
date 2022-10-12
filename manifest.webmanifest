@@ -1,7 +1,7 @@
 {
     "background_color": "white",
     "description": "DhruvBhirud as standalone app (PWA)",
-    "display": "fullscreen",
+    "display": "standalone",
     "name": "DhruvBhirud",
     "short_name": "DhruvBhirud",
     "icons": [
