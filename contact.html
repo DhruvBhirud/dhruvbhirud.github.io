@@ -176,9 +176,70 @@
         - #NAVBAR
       -->
 
-      <article class="text  active">
-        <header></header>
-        <p></p>
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" type="button" onClick="location.href='resume.html'">Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" type="button" onClick="location.href='portfolio.html'">Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" type="button" onClick="location.href='blog.html'">Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" type="button" onClick="location.href='contact.html'">Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <article class="contact  active" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120976.49940384155!2d73.72193273891949!3d18.640844782012458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b8377fbdeab3%3A0x2c4265dab1a7a0f8!2sPimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1664130257215!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/xzbwvjve" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
 
       </article>
 
